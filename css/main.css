@@ -936,7 +936,6 @@ nav {
 .schedule-tbl tbody tr.schedule-keynote {
   color: #7a5200;
   background: #fff3d6;
-  box-shadow: inset 4px 0 0 #d8a02b;
 }
 .schedule-tbl tbody tr.schedule-keynote:hover {
   background: #ffedbd;
@@ -951,6 +950,10 @@ nav {
 .schedule-tbl tbody tr.schedule-break td {
   padding-top: 18px;
   padding-bottom: 18px;
+}
+.schedule-tbl tbody tr.schedule-lunch td {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .schedule-tbl .break-icon {
   margin-right: .6em;
