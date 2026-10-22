@@ -176,10 +176,11 @@ nav ol {
 .keynote-meta {
   display: inline-block;
   margin: 0 0 18px;
-  padding: 7px 11px;
+  padding: 0;
   color: #5f4a1b;
-  background: #fff3d6;
-  border-radius: 999px;
+  background: transparent;
+  border-radius: 0;
+  font-weight: 600;
 }
 .keynote-item p:not(.keynote-meta):not(.back-link) {
   margin: 0 0 1em;
@@ -998,7 +999,6 @@ nav {
   }
   .keynote-meta {
     display: block;
-    border-radius: 6px;
   }
 }
 /* =============================================================================
