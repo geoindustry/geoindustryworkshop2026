@@ -925,6 +925,14 @@ nav {
 .schedule-other {
   color: #214f87;
 }
+.schedule-tbl tbody tr.schedule-session {
+  color: #fff;
+  font-weight: bold;
+  background: #214f87;
+}
+.schedule-tbl tbody tr.schedule-session:hover {
+  background: #214f87;
+}
 /* =============================================================================
    SPONSORS
    ========================================================================== */
