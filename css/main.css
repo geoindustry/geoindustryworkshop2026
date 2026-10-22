@@ -156,11 +156,42 @@ nav ol {
 .cfp_topic_item {
   list-style: square;
 }
-.keynote-meta {
-  margin-bottom: 0.3em;   /* reduce bottom spacing under "Speaker" */
+.keynote .schedule-tbl {
+  padding: 24px;
 }
-.keynote-item p {
-  margin-top: 0.3em;      /* reduce top margin for abstract paragraph */
+.keynote-item {
+  margin-bottom: 24px;
+  padding: 24px 26px;
+  background: #fffcf5;
+  border: 1px solid #f0dfb8;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(43, 43, 43, 0.08);
+}
+.keynote-title {
+  margin: 0 0 10px;
+  color: #704f12;
+  font-size: 2.2em;
+  line-height: 1.35;
+}
+.keynote-meta {
+  display: inline-block;
+  margin: 0 0 18px;
+  padding: 7px 11px;
+  color: #5f4a1b;
+  background: #fff3d6;
+  border-radius: 999px;
+}
+.keynote-item p:not(.keynote-meta):not(.back-link) {
+  margin: 0 0 1em;
+  line-height: 1.65;
+}
+.keynote-item .back-link {
+  margin: 18px 0 0;
+  font-size: 0.9em;
+  text-align: right;
+}
+.keynote .schedule-tbl > hr {
+  display: none;
 }
 img {
   border: 0;
@@ -957,6 +988,18 @@ nav {
 }
 .schedule-tbl .break-icon {
   margin-right: .6em;
+}
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+  .keynote .schedule-tbl {
+    padding: 10px;
+  }
+  .keynote-item {
+    padding: 18px;
+  }
+  .keynote-meta {
+    display: block;
+    border-radius: 6px;
+  }
 }
 /* =============================================================================
    SPONSORS
