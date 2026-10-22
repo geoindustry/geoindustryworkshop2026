@@ -162,8 +162,8 @@ nav ol {
 .keynote-item {
   margin-bottom: 24px;
   padding: 24px 26px;
-  background: #fffcf5;
-  border: 1px solid #f0dfb8;
+  background: #fff;
+  border: 1px solid #e3e3e3;
   border-radius: 8px;
   box-shadow: 0 1px 3px rgba(43, 43, 43, 0.08);
 }
