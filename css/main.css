@@ -926,12 +926,34 @@ nav {
   color: #214f87;
 }
 .schedule-tbl tbody tr.schedule-session {
-  color: #fff;
+  color: #214f87;
   font-weight: bold;
-  background: #214f87;
+  background: #e8f1fb;
 }
 .schedule-tbl tbody tr.schedule-session:hover {
-  background: #214f87;
+  background: #e8f1fb;
+}
+.schedule-tbl tbody tr.schedule-keynote {
+  color: #7a5200;
+  background: #fff3d6;
+  box-shadow: inset 4px 0 0 #d8a02b;
+}
+.schedule-tbl tbody tr.schedule-keynote:hover {
+  background: #ffedbd;
+}
+.schedule-tbl tbody tr.schedule-break {
+  color: #3f6958;
+  background: #eef7f2;
+}
+.schedule-tbl tbody tr.schedule-break:hover {
+  background: #e3f1e9;
+}
+.schedule-tbl tbody tr.schedule-break td {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.schedule-tbl .break-icon {
+  margin-right: .6em;
 }
 /* =============================================================================
    SPONSORS
